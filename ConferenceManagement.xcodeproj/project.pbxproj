@@ -14,6 +14,8 @@
 		A6FFFA3B1AD9596200A544C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FFFA3A1AD9596200A544C5 /* Images.xcassets */; };
 		A6FFFA3E1AD9596200A544C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FFFA3C1AD9596200A544C5 /* LaunchScreen.xib */; };
 		A6FFFA4A1AD9596200A544C5 /* ConferenceManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FFFA491AD9596200A544C5 /* ConferenceManagementTests.m */; };
+		A6FFFA551AD9635600A544C5 /* Talk.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FFFA541AD9635600A544C5 /* Talk.m */; };
+		A6FFFA581ADA0B1800A544C5 /* Myfunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FFFA571ADA0B1800A544C5 /* Myfunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		A6FFFA431AD9596200A544C5 /* ConferenceManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferenceManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FFFA481AD9596200A544C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6FFFA491AD9596200A544C5 /* ConferenceManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConferenceManagementTests.m; sourceTree = "<group>"; };
+		A6FFFA531AD9635600A544C5 /* Talk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Talk.h; sourceTree = "<group>"; };
+		A6FFFA541AD9635600A544C5 /* Talk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Talk.m; sourceTree = "<group>"; };
+		A6FFFA561ADA0B1800A544C5 /* Myfunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Myfunction.h; sourceTree = "<group>"; };
+		A6FFFA571ADA0B1800A544C5 /* Myfunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Myfunction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				A6FFFA341AD9596200A544C5 /* ViewController.h */,
 				A6FFFA351AD9596200A544C5 /* ViewController.m */,
 				A6FFFA371AD9596200A544C5 /* Main.storyboard */,
+				A6FFFA531AD9635600A544C5 /* Talk.h */,
+				A6FFFA541AD9635600A544C5 /* Talk.m */,
+				A6FFFA561ADA0B1800A544C5 /* Myfunction.h */,
+				A6FFFA571ADA0B1800A544C5 /* Myfunction.m */,
 				A6FFFA3A1AD9596200A544C5 /* Images.xcassets */,
 				A6FFFA3C1AD9596200A544C5 /* LaunchScreen.xib */,
 				A6FFFA2D1AD9596200A544C5 /* Supporting Files */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FFFA581ADA0B1800A544C5 /* Myfunction.m in Sources */,
 				A6FFFA361AD9596200A544C5 /* ViewController.m in Sources */,
+				A6FFFA551AD9635600A544C5 /* Talk.m in Sources */,
 				A6FFFA331AD9596200A544C5 /* AppDelegate.m in Sources */,
 				A6FFFA301AD9596200A544C5 /* main.m in Sources */,
 			);
